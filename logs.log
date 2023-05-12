@@ -1,0 +1,43 @@
+{"level":"info","message":"Request received: POST /api/tasks"}
+{"level":"info","message":"New task created: undefined"}
+{"level":"info","message":"Request received: POST /api/tasks"}
+{"level":"info","message":"New task created: undefined"}
+{"level":"info","message":"Request received: GET /api/tasks"}
+{"level":"info","message":"Request received: GET /api/tasks"}
+{"level":"info","message":"Request received: POST /api/tasks"}
+{"level":"info","message":"New task created: undefined"}
+{"level":"info","message":"Request received: GET /api/tasks"}
+{"level":"info","message":"Request received: POST /api/tasks"}
+{"level":"info","message":"New task created: Write a code that can show the create function"}
+{"level":"info","message":"Request received: GET /api/tasks"}
+{"level":"info","message":"Request received: POST /api/tasks"}
+{"level":"info","message":"New task created: Write a code that can show the create function"}
+{"level":"info","message":"Request received: GET /api/tasks"}
+{"level":"info","message":"Request received: POST /api/tasks"}
+{"level":"info","message":"New task created: Eat Ice cream"}
+{"level":"info","message":"Request received: POST /api/tasks"}
+{"level":"info","message":"New task created - ID: 1, Title: Go to Gym"}
+{"level":"info","message":"Request received: GET /api/tasks"}
+{"level":"info","message":"Request received: GET /api/tasks/1"}
+{"level":"info","message":"Request received: GET /api/tasks"}
+{"level":"info","message":"Request received: POST /api/tasks"}
+{"level":"info","message":"New task created - ID: 2, Title: Go Study At the Library"}
+{"level":"info","message":"Request received: POST /api/tasks"}
+{"level":"info","message":"New task created - ID: 3, Title: General Meeting"}
+{"level":"info","message":"Request received: GET /api/tasks"}
+{"level":"info","message":"Request received: GET /api/tasks"}
+{"level":"info","message":"Request received: PUT /api/tasks/2"}
+{"level":"info","message":"Task updated: Go Study At Home"}
+{"level":"info","message":"Request received: GET /api/tasks"}
+{"level":"info","message":"Request received: PUT /api/tasks/2"}
+{"level":"info","message":"Task updated: Go Study At A Coffee Shop"}
+{"level":"info","message":"Request received: GET /api/tasks"}
+{"level":"info","message":"Request received: POST /api/tasks"}
+{"level":"info","message":"New task created - ID: 4, Title: Finish Homework"}
+{"level":"info","message":"Request received: GET /api/tasks/expiring-today"}
+{"level":"info","message":"Request received: PATCH /api/tasks/1/done"}
+{"level":"info","message":"Task marked as done: Go to Gym"}
+{"level":"info","message":"Request received: GET /api/tasks"}
+{"level":"info","message":"Request received: DELETE /api/tasks/1"}
+{"level":"info","message":"Task deleted: Go to Gym"}
+{"level":"info","message":"Request received: GET /api/tasks"}

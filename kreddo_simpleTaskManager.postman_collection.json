@@ -1,0 +1,166 @@
+{
+	"info": {
+		"_postman_id": "a915592c-fb32-4184-92ab-79b7cd7d0dee",
+		"name": "kreddo_simpleTaskManager",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12951310"
+	},
+	"item": [
+		{
+			"name": "http://localhost:4000/api/tasks",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"title\": \"Finish Homework\", \r\n    \"dueDate\": \"12/05/2023\" \r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks"
+					]
+				},
+				"description": "Create a new task"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/tasks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks"
+					]
+				},
+				"description": "Route to retrieve all tasks"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/tasks/2",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Go Study At A Coffee Shop\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/tasks/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks",
+						"2"
+					]
+				},
+				"description": "Route to Update a task"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/tasks/expiring-today",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/tasks/expiring-today",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks",
+						"expiring-today"
+					]
+				},
+				"description": "Route to retrieve tasks that expiring today"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/tasks/:id/done",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/tasks/1/done",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks",
+						"1",
+						"done"
+					]
+				},
+				"description": "Route to mark a task is done, by putting the task ID"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/tasks/:id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/tasks/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"tasks",
+						"1"
+					]
+				},
+				"description": "Route o delete a task, replace :id with the actual exsisting ID of a task that wants to be deleted"
+			},
+			"response": []
+		}
+	]
+}
